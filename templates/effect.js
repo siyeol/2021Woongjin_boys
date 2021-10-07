@@ -2150,3 +2150,92 @@ setInterval(function () {
     },
     });
 }, 1000);
+
+function stu4img1() {
+    document.getElementById("std4_modal_thief").style.display =
+      "block";
+    sirenaudio4.play();
+    temp41 = 1;
+  }
+
+  function stu4img2() {
+    document.getElementById("std4_modal_posture").style.display =
+      "block";
+    temp42 = 1;
+  }
+
+  function stu4img3() {
+    document.getElementById("std4_modal_speech").style.display =
+      "block";
+    temp43 = 1;
+  }
+
+  function stu4img4() {
+    document.getElementById("std4_modal_bomb").style.display =
+      "block";
+    bombaudio4.play();
+    temp44 = 1;
+  }
+
+  state = 0;
+  function changeImg3() {
+    if (state == 0) {
+      state = 1;
+      document.getElementById("base3").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
+    } else {
+      state = 0;
+      document.getElementById("base3").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
+    }
+  }
+
+  function stu3img1() {
+    document.getElementById("std3_modal_thief").style.display =
+      "block";
+    sirenaudio3.play();
+    temp31 = 1;
+  }
+
+  function stu3img2() {
+    document.getElementById("std3_modal_posture").style.display =
+      "block";
+    temp32 = 1;
+  }
+  function stu3img3() {
+    document.getElementById("std3_modal_speech").style.display =
+      "block";
+    temp33 = 1;
+  }
+
+  function stu3img4() {
+    document.getElementById("std3_modal_bomb").style.display =
+      "block";
+    bombaudio3.play();
+    temp34 = 1;
+  }
+
+  function stu2img1() {
+    document.getElementById("std2_modal_thief").style.display =
+      "block";
+    sirenaudio2.play();
+    temp21 = 1;
+  }
+
+  function stu2img2() {
+    document.getElementById("std2_modal_posture").style.display =
+      "block";
+    temp22 = 1;
+  }
+  function stu2img3() {
+    document.getElementById("std2_modal_speech").style.display =
+      "block";
+    temp23 = 1;
+  }
+
+  function stu2img4() {
+    document.getElementById("std2_modal_bomb").style.display =
+      "block";
+    bombaudio2.play();
+    temp24 = 1;
+  }
