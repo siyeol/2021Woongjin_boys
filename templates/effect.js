@@ -2177,18 +2177,6 @@ function stu4img1() {
     temp44 = 1;
   }
 
-  state = 0;
-  function changeImg3() {
-    if (state == 0) {
-      state = 1;
-      document.getElementById("base3").src =
-        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
-    } else {
-      state = 0;
-      document.getElementById("base3").src =
-        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
-    }
-  }
 
   function stu3img1() {
     document.getElementById("std3_modal_thief").style.display =
@@ -2238,4 +2226,62 @@ function stu4img1() {
       "block";
     bombaudio2.play();
     temp24 = 1;
+  }
+
+  const loadScreen = document.getElementById("loading");
+  const clickLoad = document.getElementById("loading");
+  clickLoad.addEventListener("click", (e) => {
+    loadScreen.style.display = "none";
+  });
+
+  setTimeout(function () {
+    document.getElementById("loading").style.display = "none";
+  }, 5000);
+
+  function changeImg1() {
+    if (state == 0) {
+      state = 1;
+      document.getElementById("base1").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
+    } else {
+      state = 0;
+      document.getElementById("base1").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
+    }
+  }
+
+  function changeImg2() {
+    if (state == 0) {
+      state = 1;
+      document.getElementById("base2").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
+    } else {
+      state = 0;
+      document.getElementById("base2").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
+    }
+  }
+
+  function changeImg3() {
+    if (state == 0) {
+      state = 1;
+      document.getElementById("base3").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
+    } else {
+      state = 0;
+      document.getElementById("base3").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
+    }
+  }
+
+  function changeImg4() {
+    if (state == 0) {
+      state = 1;
+      document.getElementById("base4").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/720f9d57039c1c9ef396f4d69449cc99_mp4.gif";
+    } else {
+      state = 0;
+      document.getElementById("base4").src =
+        "http://file3.instiz.net/data/cached_img/upload/2018/09/15/3/df02e3d32cff9daa71b92e54cf8ee6c4_mp4.gif";
+    }
   }
